@@ -3122,18 +3122,18 @@ Nesse caso, queremos saber quanto os partidos doaram para mulheres e homens em c
 
 ```python
 tabela_final_prefeitos = prefeitos.pivot_table(index=[u'Número partido doador',
-                         u'UF', 
-                         u'Nome da UE'],
-                  columns=[u'Sexo'],
-                  values=['Valor receita', "Sequencial Candidato"], 
-                  aggfunc=[sum, pd.Series.nunique])
+                                                      u'UF', 
+                                                      u'Nome da UE'],
+                                               columns=[u'Sexo'],
+                                               values=['Valor receita', "Sequencial Candidato"], 
+                                               aggfunc=[sum, pd.Series.nunique])
 
 tabela_final_vereadores = vereadores.pivot_table(index=[u'Número partido doador',
-                         u'UF', 
-                         u'Nome da UE'],
-                  columns=[u'Sexo'],
-                  values=['Valor receita', "Sequencial Candidato"], 
-                  aggfunc=[sum, pd.Series.nunique])
+                                                        u'UF',
+                                                        u'Nome da UE'],
+                                                 columns=[u'Sexo'],
+                                                 values=['Valor receita', "Sequencial Candidato"], 
+                                                 aggfunc=[sum, pd.Series.nunique])
 ```
 
 
