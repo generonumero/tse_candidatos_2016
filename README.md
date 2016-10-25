@@ -2639,7 +2639,9 @@ Vamos usar a coluna "Sequencial Candidato" na base que acabamos de criar e vamos
 
 Essa base foi criada unindo [todos os arquivos TXT do TSE](http://agencia.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2016.zip) com um simples comando no terminal:
 
-``cat *.txt > consulta_cand_2016_brasil.csv``
+```bash
+cat *.txt > consulta_cand_2016_brasil.csv
+```
 
 Você pode renomear depois para .txt (como abaixo) ou deixar .csv mesmo. Agora basta criarmos um novo DataFrame com a base que acabamos de definir:
 
