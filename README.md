@@ -1,7 +1,7 @@
 
-# A doação de partidos para seus cadidatos
+# A doação de partidos para seus candidatos
 
-Baixamos a [prestação de contas dos candidatos em 2016](http://www.tse.jus.br/hotSites/pesquisas-eleitorais/prestacao_contas_anos/2016.html) e seguimos com a seguinte pergunta: quanto os partidos políticos doaram para seus candidatos? É possível identificar uma diferença entre os valores doado para homens e para mulheres? Quais são os partidos que mais se destacam e porquê? Quais foram os candidados que mais se destacaram e porquê? Essas são algumas das perguntas que a nossa anaálise procurou responder.
+Baixamos a [prestação de contas dos candidatos em 2016](http://www.tse.jus.br/hotSites/pesquisas-eleitorais/prestacao_contas_anos/2016.html) e seguimos com a seguinte pergunta: quanto os partidos políticos doaram para seus candidatos? É possível identificar uma diferença entre os valores doados para homens e para mulheres? Quais são os partidos que mais se destacam e por quê? Quais foram os candidados que mais se destacaram e por quê? Essas são algumas das perguntas que a nossa análise procurou responder.
 
 ## Sexo invisível
 A base de prestação de contas dos candidatos não possui a coluna "Sexo". Ou seja, apenas com essa base não é possível fazer as análises. Contudo, a base possui o nome e o número sequencial dos candidatos, algo que usaremos para importar os dados de sexo da base de candidaturas.
